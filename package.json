@@ -1,0 +1,32 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mooosakhan",
+  "license": "ISC",
+  "type": "module",
+  "description": "f",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooosakhan/Saylani_Hackathon_Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mooosakhan/Saylani_Hackathon_Backend/issues"
+  },
+  "homepage": "https://github.com/mooosakhan/Saylani_Hackathon_Backend#readme"
+}
