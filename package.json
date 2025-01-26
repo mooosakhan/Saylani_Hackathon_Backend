@@ -13,6 +13,7 @@
   "description": "f",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
@@ -20,7 +21,6 @@
     "qrcode": "^1.5.4",
     "uuid": "^11.0.5"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mooosakhan/Saylani_Hackathon_Backend.git"

@@ -1,6 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import authRoutes from './routes/authRoutes.js'; // Import routes
+import BenificiaryRoutes from './routes/BenificiaryRoutes.js'; // Import routes
+import AdminRoutes from './routes/AdminRoutes.js'; // Import routes
+// import BenificiaryRoutes from './routes/BenificiaryRoutes.js'; // Import routes
 import errorHandler from './middlewares/errorHandler.js'; // Custom error handler
 import cors from 'cors'
 
@@ -16,7 +18,9 @@ app.use(cors({
     credentials: true // If you need to send cookies or credentials
 }));
 // Routes
-app.use('/api/auth', authRoutes); // Mount auth routes
+app.use('/api/auth', BenificiaryRoutes); // Mount auth routes
+app.use('/api/auth', AdminRoutes); // Mount auth routes
+// app.use('/api/auth', authRoutes); // Mount auth routes
 
 app.get('/', (req, res) => {
     res.send('Welcome to the Beneficiary Registration API!');
