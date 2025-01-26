@@ -18,6 +18,11 @@ app.use(cors({
 // Routes
 app.use('/api/auth', authRoutes); // Mount auth routes
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the Beneficiary Registration API!');
+  });
+  
+
 // Error Handler
 app.use(errorHandler); // Catch and handle errors
 
